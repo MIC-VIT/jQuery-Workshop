@@ -1,0 +1,101 @@
+.w3-col {
+    height: 80px;
+    width: 80px;
+    background-color: greenyellow;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.imgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playGame {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w3-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.w3-row {
+    margin: 15px;
+}
+
+.w3-container {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .w3-container {
+        width: 78%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .w3-container {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .w3-container {
+        width: 92%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .w3-container {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/*Disable text selection using css*/
+
+* {
+    -webkit-user-select: none;
+    /* webkit (safari, chrome) browsers */
+    -moz-user-select: none;
+    /* mozilla browsers */
+    -khtml-user-select: none;
+    /* webkit (konqueror) browsers */
+    -ms-user-select: none;
+    /* IE10+ */
+}
