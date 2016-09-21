@@ -1,3 +1,5 @@
 w3css - http://www.w3schools.com/w3css
 
 jQuery - https://jquery.com/
+
+jQuery selectors - http://www.w3schools.com/jquery/jquery_ref_selectors.asp
